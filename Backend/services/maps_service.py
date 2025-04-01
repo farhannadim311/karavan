@@ -5,7 +5,7 @@ from flask import current_app
 import time
 
 def get_maps_client():
-    api_key = 'AIzaSyAa1uQsxCYQeAmdrlleIB7hlDPNtWLVtiE'
+    api_key = ''
     if not api_key:
         raise ValueError("GOOGLE_MAPS_API_KEY is not configured")
     return googlemaps.Client(key=api_key)

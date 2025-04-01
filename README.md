@@ -49,32 +49,55 @@ An end-to-end application that helps you discover ideal camping and stargazing s
 
 ## Instructions on how to run
 
+---
+
 ## Backend (Flask)
 
-# 1) Create and activate a virtual environment (recommended)
-python -m venv venv
-source venv/bin/activate     # macOS/Linux
-venv\Scripts\activate        # Windows
+1. Create and activate a virtual environment (recommended)
 
-# 2) Install Python dependencies
-pip install -r requirements.txt
+    ```bash
+    python -m venv venv
+    # macOS/Linux
+    source venv/bin/activate
+    # Windows
+    venv\Scripts\activate
+    ```
 
-# 3) # (Replace placeholder API keys with real ones)
+2. Install Python dependencies
 
+    ```bash
+    pip install -r requirements.txt
+    ```
 
-# 4) Start the Flask server
-python run.py
-------------
+3. (Replace placeholder API keys with real ones)
+
+4. Start the Flask server
+
+    ```bash
+    python run.py
+    ```
+
+---
+
 ## Frontend (React)
-# 1) Install Node dependencies
-npm install
 
-# If your React app is in a 'frontend' folder:
-# cd frontend
-# npm install
+1. Install Node dependencies
 
-# 2) Start the React dev server
-npm run start
+    ```bash
+    npm install
+    ```
 
-# By default, it'll be served at http://localhost:3000/
+2. Navigate to frontend
 
+    ```bash
+    cd frontend
+    npm install
+    ```
+
+3. Start the React dev server
+
+    ```bash
+    npm run start
+    ```
+
+    By default, it'll be served at: [http://localhost:3000/](http://localhost:3000/)
